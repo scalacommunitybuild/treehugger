@@ -32,7 +32,7 @@ class DSL_0LexicalSpec extends DSLSpec { def is =                             s2
     (LIT(1.23F) must print_as("1.23F"))
   
   def literal3 =
-    LIT('Symbol) must print_as("'Symbol")
+    LIT('Symbol) must print_as("Symbol(Symbol)")
 
   def literal4 =
     (TRUE  must print_as("true")) and
